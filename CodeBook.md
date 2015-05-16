@@ -67,7 +67,9 @@ tBodyGyroJerkMean
 <li>'train/X_train.txt': Training set.</li>
 <li>'train/y_train.txt': Training labels.</li>
 <li>'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.</li>
+</ul>
 3. Corresponding data frame has been created for "Train" sample, by comingind data from:
+<ul>
 <li>'test/X_test.txt': Test set.</li>
 <li>'test/y_test.txt': Test labels.</li>
 <li>'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.</li>
