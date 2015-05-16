@@ -107,4 +107,4 @@ TidyData.txt contains result of above mentioned transformation. Data frame conta
 [77] "fBodyGyrostdZ"                "fBodyAccMagstd"               "fBodyBodyAccJerkMagstd"       "fBodyBodyGyroMagstd"         
 [81] "fBodyBodyGyroJerkMagstd"
 <br />
-Observations has been sorted by <strong> activity </strong> (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS) and by <strong> subject</strong>  decribed by number from 1 to 30.
+Observations has been sorted by <strong> activity </strong> (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS) and by <strong> subject</strong>  described by number from 1 to 30.
