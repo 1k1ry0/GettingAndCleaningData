@@ -84,9 +84,9 @@ R code performing above mentioned steps can be found in <strong>run_analysis.R</
 2. Unpack it to your working directory.
 3. Run the code.
 
-Please note that this R script uses dplyr library so be sure to have it installed before runing the code.
+Please note that this R script uses <strong>dplyr</strong> library so be sure to have it installed before runing the code.
 <h2>What TidyData.txt cotain?</h2> 
-TidyData.txt contains result of above mentioned transformation. Data frame contains 180 observations of 81 variables.Variables include:<br/><br/>
+TidyData.txt contains result of above mentioned transformation. Data frame contains <strong>180 observations of 81 variables</strong>. Variables include:<br/><br/>
 [1] "ActivityName"                 "Subject"                      "tBodyAccmeanX"                "tBodyAccmeanY"               
  [5] "tBodyAccmeanZ"                "tGravityAccmeanX"             "tGravityAccmeanY"             "tGravityAccmeanZ"            
  [9] "tBodyAccJerkmeanX"            "tBodyAccJerkmeanY"            "tBodyAccJerkmeanZ"            "tBodyGyromeanX"              
