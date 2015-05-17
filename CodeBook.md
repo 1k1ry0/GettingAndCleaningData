@@ -86,7 +86,7 @@ R code performing above mentioned steps can be found in run_analysis.R file.
 
 Please note that this R script uses dplyr library so be sure to have it installed before runing the code.
 <h2>What TidyData.txt cotain?</h2> 
-TidyData.txt contains result of above mentioned transformation. Data frame contains 180 observations of 81 variables.Variables include:<br />
+TidyData.txt contains result of above mentioned transformation. Data frame contains 180 observations of 81 variables.Variables include:<br/><br/>
 [1] "ActivityName"                 "Subject"                      "tBodyAccmeanX"                "tBodyAccmeanY"               
  [5] "tBodyAccmeanZ"                "tGravityAccmeanX"             "tGravityAccmeanY"             "tGravityAccmeanZ"            
  [9] "tBodyAccJerkmeanX"            "tBodyAccJerkmeanY"            "tBodyAccJerkmeanZ"            "tBodyGyromeanX"              
@@ -108,5 +108,5 @@ TidyData.txt contains result of above mentioned transformation. Data frame conta
 [73] "fBodyAccJerkstdY"             "fBodyAccJerkstdZ"             "fBodyGyrostdX"                "fBodyGyrostdY"               
 [77] "fBodyGyrostdZ"                "fBodyAccMagstd"               "fBodyBodyAccJerkMagstd"       "fBodyBodyGyroMagstd"         
 [81] "fBodyBodyGyroJerkMagstd"
-<br />
-Observations has been sorted by <strong> activity </strong> (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS) and by <strong> subject</strong>  described by number from 1 to 30.
+<br /><br/>
+Observations has been <strong>sorted by activity </strong> (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS) <strong>and by subject</strong>  described by number from 1 to 30.
