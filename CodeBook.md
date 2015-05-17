@@ -1,6 +1,6 @@
 <h1>CODE BOOK</h1>
 <h2>Input Data</h2>
-Input data for this project has been acquired from UCI Machine Learning Repository - Human Activity Recognition Using Smartphones Data Set.
+Input data for this project has been acquired from <strong>UCI Machine Learning Repository - Human Activity Recognition Using Smartphones Data Set</strong>.
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
 
@@ -61,26 +61,26 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 <li>tBodyGyroMean</li>
 <li>tBodyGyroJerkMean</li>
 <h2>Transformation</h2>
-1. Names of columns stored in feature.txt file has been simplified by eliminating "()" and "-" symbols.
-2. "Test" data frame has been created be combining data from:
+1. Names of columns stored in <strong>feature.txt</strong> file has been simplified by eliminating "()" and "-" symbols.
+2. <strong>"Test"</strong> data frame has been created be combining data from:
 <ul>
 <li>'train/X_train.txt': Training set.</li>
 <li>'train/y_train.txt': Training labels.</li>
 <li>'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.</li>
 </ul>
-3. Corresponding data frame has been created for "Train" sample, by combining data from:
+3. Corresponding data frame has been created for <strong>"Train"</strong> sample, by combining data from:
 <ul>
 <li>'test/X_test.txt': Test set.</li>
 <li>'test/y_test.txt': Test labels.</li>
 <li>'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.</li>
 </ul>
-4. Both "Train" and "Test" samples have been merged together to create one frame named "TestTrain".
-5. Activity lables has been acquired from "activity_labels.txt", and assigned to appropriate activity in "TestTrain" set.
-6. Finally, independent tidy data set with the average of each variable for each activity and each subject has been created and saved as TidyData.txt.
+4. Both "Train" and "Test" samples have been merged together to create one frame named <strong>"TestTrain"</strong>.
+5. Activity lables has been acquired from <strong>"activity_labels.txt"</strong>, and assigned to appropriate activity in "TestTrain" set.
+6. Finally, independent tidy data set with the average of each variable for each activity and each subject has been created and saved as <strong>TidyData.txt</strong>.
 
-R code performing above mentioned steps can be found in run_analysis.R file.
+R code performing above mentioned steps can be found in <strong>run_analysis.R</strong> file.
 <h2>How to use run_analysis.R</h2>
-1. Download Human Activity Recognition Using Smartphones Data Set (you can find it here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+1. Download <strong>Human Activity Recognition Using Smartphones Data Set</strong> (you can find it here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 2. Unpack it to your working directory.
 3. Run the code.
 
